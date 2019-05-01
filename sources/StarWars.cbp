@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="StarWars" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/StarWars" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+					<Add directory="include" />
+				</Compiler>
+				<Linker>
+					<Add library="../../../../../../allegro/lib/liballegro_monolith-debug.dll.a" />
+				</Linker>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/StarWars" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add directory="include" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+					<Add library="../../../../../../allegro/lib/liballegro_monolith.dll.a" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+			<Add directory="../../../../../../allegro/include" />
+		</Compiler>
+		<Linker>
+			<Add directory="../../../../../../allegro/lib" />
+		</Linker>
+		<Unit filename="include/DarthVader.h" />
+		<Unit filename="include/Karakter.h" />
+		<Unit filename="include/KyloRen.h" />
+		<Unit filename="include/Lokasyon.h" />
+		<Unit filename="include/LukeSkywalker.h" />
+		<Unit filename="include/MasterYoda.h" />
+		<Unit filename="include/Stormtrooper.h" />
+		<Unit filename="main.cpp" />
+		<Unit filename="src/DarthVader.cpp" />
+		<Unit filename="src/Karakter.cpp" />
+		<Unit filename="src/KyloRen.cpp" />
+		<Unit filename="src/Lokasyon.cpp" />
+		<Unit filename="src/LukeSkywalker.cpp" />
+		<Unit filename="src/MasterYoda.cpp" />
+		<Unit filename="src/Stormtrooper.cpp" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

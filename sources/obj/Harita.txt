@@ -1,0 +1,19 @@
+Karakter:LukeSkywalker
+
+Karakter:DarthVader,Kapi:A
+
+Karakter:Stormtrooper,Kapi:E
+
+Karakter:KyloRen,Kapi:C
+
+0	0	0	0	1	0	0	0	0	0	0	0	1	0
+0	1	1	1	1	0	1	1	1	1	1	1	1	0
+0	1	0	1	1	1	1	0	1	0	0	0	1	0
+0	1	0	1	1	0	1	0	1	1	0	1	1	0
+0	1	0	1	0	0	1	0	1	1	0	1	1	0
+1	1	0	1	1	1	1	0	1	0	0	0	1	1
+0	1	0	0	1	0	1	0	1	0	1	1	1	0
+0	1	0	1	1	1	1	1	1	0	0	0	1	0
+0	1	0	1	0	0	0	0	1	0	0	1	1	0
+0	1	1	1	1	1	1	1	1	1	1	1	1	1
+0	0	0	0	1	0	0	0	0	0	0	0	0	0
